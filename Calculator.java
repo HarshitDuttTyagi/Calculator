@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-class page7 implements ActionListener
+class Calculator implements ActionListener
 {
     JFrame f;
     JPanel p,p1;
@@ -9,7 +9,7 @@ class page7 implements ActionListener
     JTextField t1;
     double aa,bb,cc;
     String op;
-    public page7()
+    public Calculator()
     {
         f=new JFrame("HARSHIT");
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -91,6 +91,6 @@ class page7 implements ActionListener
     }
     public static void main(String a[])
     {
-        new page7();
+        new Calculator();
     }
 }
